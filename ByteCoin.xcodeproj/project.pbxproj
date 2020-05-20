@@ -40,6 +40,9 @@
 		34845FB92475B22000F1C04B = {
 			isa = PBXGroup;
 			children = (
+				34845FDB2475B28600F1C04B /* View */,
+				34845FDA2475B28100F1C04B /* Model */,
+				34845FD92475B26D00F1C04B /* Controller */,
 				34845FC42475B22000F1C04B /* ByteCoin */,
 				34845FC32475B22000F1C04B /* Products */,
 			);
@@ -58,13 +61,34 @@
 			children = (
 				34845FC52475B22000F1C04B /* AppDelegate.swift */,
 				34845FC72475B22000F1C04B /* SceneDelegate.swift */,
-				34845FC92475B22000F1C04B /* ViewController.swift */,
-				34845FCB2475B22000F1C04B /* Main.storyboard */,
 				34845FCE2475B22900F1C04B /* Assets.xcassets */,
 				34845FD02475B22900F1C04B /* LaunchScreen.storyboard */,
 				34845FD32475B22900F1C04B /* Info.plist */,
 			);
 			path = ByteCoin;
+			sourceTree = "<group>";
+		};
+		34845FD92475B26D00F1C04B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34845FC92475B22000F1C04B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34845FDA2475B28100F1C04B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34845FDB2475B28600F1C04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34845FCB2475B22000F1C04B /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
